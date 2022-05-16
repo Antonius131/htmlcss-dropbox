@@ -11,6 +11,7 @@
 
 header {
    position: fixed;
+   top: 0;
    z-index: 1;
    width: 100%;
    background-color: antiquewhite;
@@ -35,4 +36,27 @@ nav li {
 .logo {
    padding: 0px 18px 0px 0px;
    vertical-align: middle;
+}
+
+
+
+
+/* main */
+
+main {
+   margin-top: 67px;
+}
+
+.jumbotron-container {
+   background-color: aquamarine;
+   position: relative;
+}
+
+.jumbotron-content {
+   background-color: cornflowerblue;
+   position: relative;
+   max-width: 70%;
+   margin: 0 auto;
+   height: 450px;
+   bottom: -60px
 }
