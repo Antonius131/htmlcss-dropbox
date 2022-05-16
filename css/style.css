@@ -3,3 +3,36 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+
+
+
+/* header */
+
+header {
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+   background-color: antiquewhite;
+   padding: 21px;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav ul {
+   display: inline-block;
+   list-style: none;
+}
+
+nav li {
+   display: inline-block;
+}
+
+.logo {
+   padding: 0px 18px 0px 0px;
+   vertical-align: middle;
+}
