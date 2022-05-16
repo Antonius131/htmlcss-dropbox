@@ -4,6 +4,10 @@
    box-sizing: border-box;
 }
 
+.container {
+   max-width: 50%;
+   margin: 0 auto;
+}
 
 
 
@@ -41,6 +45,8 @@ nav li {
 
 
 
+
+
 /* main */
 
 main {
@@ -59,4 +65,42 @@ main {
    margin: 0 auto;
    height: 450px;
    bottom: -60px
+}
+
+
+/* business plan section */
+
+.business-plan {
+   margin-top: 120px;
+}
+
+.radio-tabs {
+   margin-top: 30px;
+}
+
+.radio-container {
+   display: inline-block;
+}
+
+/* business plan cards */
+
+.business-cards-container {
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.card {
+   display: flex;
+   width: calc((100% - 40px) / 3);
+   background-color: bisque;
+   height: 200px;
+   padding: 10px;
+   border: 1px solid grey;
+}
+
+.premium-plan {
+   margin-top: 20px;
+   flex: 100%;
 }
