@@ -10,13 +10,30 @@ body {
 }
 
 .container {
-   max-width: 50%;
+   max-width: 740px;
    margin: 0 auto;
+}
+
+hr {
+   display: block;
+   height: 1px;
+   background-color: #d2d2d2;
+   width: 20%;
+   border: none;
+   margin: 24px 0px;
+}
+
+ul {
+   list-style: none;
 }
 
 h1 {
    font-size: 50px;
    font-weight: 800;
+}
+
+p {
+   font-size: 12px;
 }
 
 a {
@@ -67,7 +84,7 @@ nav li a {
 .color-btn {
    background-color: #2558ff;
    color: #fff;
-   padding: 6px 12px;
+   padding: 8px 12px;
 }
 
 
@@ -137,10 +154,26 @@ main {
 
 .radio-tabs {
    margin-top: 30px;
+   font-size: 14px;
 }
 
-.radio-container {
+.radio-box {
    display: inline-block;
+}
+
+.radio-box span {
+   width: 16px;
+   height: 16px;
+   background-color: #fff;
+   display: inline-block;
+   border: 4px solid #2558ff;
+   border-radius: 12px;
+   vertical-align: middle;
+}
+
+.radio-box .inactive-radio {
+   border: 1px solid #d2d2d2;
+   margin-left: 6px;
 }
 
 
@@ -154,18 +187,97 @@ main {
 }
 
 .card {
-   display: flex;
    width: calc((100% / 3) - 20px);
    margin: 10px;
-   background-color: bisque;
-   height: 200px;
-   padding: 10px;
-   border: 1px solid grey;
+   border: 1px solid #d2d2d2;
+   font-size: 12px;
 }
 
 .premium-plan {
    flex: 100%;
 }
+
+.plan-description {
+   padding: 20px;
+}
+
+.plan-type {
+   border-bottom: 1px solid #d2d2d2;
+   text-align: center;
+   padding: 10px;
+}
+
+.plan-price h3 {
+   font-size: initial;
+   margin-bottom: 10px;
+}
+
+.caption {
+   color: rgba(0,0,0,.5);
+}
+
+.plan-features {
+   padding: 24px 0px;
+}
+
+.plan-features li {
+   display: flex;
+}
+
+.description-box {
+   padding: 0px 0px 12px 6px;
+   color: rgba(0,0,0,.5);
+}
+
+.selection-box {
+   padding: 10px 0px;
+   text-align: center;
+}
+
+.selection-box a {
+   display: block;
+}
+
+.buy-now-box {
+   padding: 10px 0px;
+   color: rgba(0,0,0,.5);
+}
+
+.buy-now-box a {
+   text-decoration: underline;
+}
+
+.plan-details ul {
+   padding: 18px 0px;
+}
+
+.plan-details li {
+   display: flex;
+}
+
+.fa-check {
+   color: #2558ff;
+}
+
+.enterprice-container {
+   display: flex;
+}
+
+.ent-info {
+   width: 70%;
+}
+
+.buy-opt {
+   width: 30%;
+}
+
+.buy-opt .selection-box {
+   padding: 0;
+   width: 100%;
+}
+
+
+
 
 
 /* partners */
@@ -282,10 +394,6 @@ footer .container-big {
 
 .col ul li {
    padding: 4px 0px
-}
-
-hr {
-   margin-top: 80px;
 }
 
 .language-box {
