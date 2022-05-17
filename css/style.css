@@ -4,14 +4,14 @@
    box-sizing: border-box;
 }
 
-.container {
-   max-width: 50%;
-   margin: 0 auto;
-}
-
 body {
    font-family: 'Open Sans', serif;
    color: #333;
+}
+
+.container {
+   max-width: 50%;
+   margin: 0 auto;
 }
 
 
@@ -87,6 +87,7 @@ main {
    display: inline-block;
 }
 
+
 /* business plan cards */
 
 .col-3 {
@@ -109,6 +110,7 @@ main {
 .premium-plan {
    flex: 100%;
 }
+
 
 /* partners */
 
@@ -145,6 +147,7 @@ main {
 
 .team-logos {
    display: flex;
+   justify-content: space-between;
    flex-wrap: wrap;
 }
 
@@ -152,5 +155,38 @@ main {
    width: calc(100vw / 6);
    height: calc(100vw / 6);
    padding: 60px;
-   border: 1px solid #000;
+}
+
+.free-trial-bg {
+   background-color: aqua;
+   padding: 20px 0px;
+}
+
+
+/* free trial */
+
+.free-trial-bg {
+   background-color: aqua;
+   padding: 20px 0px;
+}
+
+
+/* F.A.Q. */
+
+.faq-container {
+   padding: 100px 0px;
+}
+
+.questions-container {
+   padding: 50px 0px;
+}
+
+.question-box {
+   padding: 30px 0px;
+   border-top: 1px solid #000;
+   font-size: 14px;
+}
+
+.last-qb {
+   border-bottom: 1px solid #000;
 }
