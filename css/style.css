@@ -63,13 +63,16 @@ main {
    position: relative;
 }
 
-.jumbotron-content {
+.container-big {
    background-color: cornflowerblue;
-   position: relative;
    max-width: 70%;
    margin: 0 auto;
    height: 450px;
-   bottom: -60px
+}
+
+.jumbo-content {
+   position: relative;
+   bottom: -60px;
 }
 
 
@@ -189,4 +192,49 @@ main {
 
 .last-qb {
    border-bottom: 1px solid #000;
+}
+
+
+
+
+
+
+/* footer */
+
+footer {
+   padding: 50px 0px 0px 0px;
+   background-color: #000;
+   color: #fff;
+}
+
+footer .container-big {
+   background-color: #000;
+   height: auto;
+}
+
+.footer-nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-nav .col {
+   width: calc(100% / 5);
+}
+
+.col ul {
+   list-style: none;
+   margin-top: 14px;
+   font-size: 14px;
+}
+
+.col ul li {
+   padding: 4px 0px
+}
+
+hr {
+   margin-top: 80px;
+}
+
+.language-box {
+   padding: 20px 0px;
 }
