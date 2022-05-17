@@ -6,12 +6,17 @@
 
 body {
    font-family: 'Open Sans', serif;
-   color: #333;
+   color: #212121;
 }
 
 .container {
    max-width: 50%;
    margin: 0 auto;
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: 800;
 }
 
 a {
@@ -59,9 +64,10 @@ nav li a {
    font-size: 14px;
 }
 
-.start-button {
-   background-color: #4470ff;
+.color-btn {
+   background-color: #2558ff;
    color: #fff;
+   padding: 6px 12px;
 }
 
 
@@ -77,18 +83,49 @@ main {
 .jumbotron-container {
    background-color: #B4D0E7;
    position: relative;
+   font-size: 14px;
 }
 
 .container-big {
-   background-color: cornflowerblue;
-   max-width: 70%;
+   max-width: 860px;
    margin: 0 auto;
-   height: 450px;
 }
 
 .jumbo-content {
    position: relative;
    bottom: -60px;
+}
+
+.jumbo-info {
+   display: flex;
+   margin-top: 30px;
+}
+
+.jumbo-text {
+   width: 25%;
+   color: #474747;
+}
+
+.jumbo-image {
+   width: 75%;
+}
+
+.jumbo-image img {
+   width: 100%;
+}
+
+.jumbo-text {
+   width: 35%;
+}
+
+.jumbo-text a {
+   display: inline-block;
+   margin: 16px 0px;
+}
+
+.jumbo-text i {
+   margin-top: 20px;
+   font-size: 39px;
 }
 
 
