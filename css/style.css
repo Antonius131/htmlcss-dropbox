@@ -11,6 +11,7 @@
 
 body {
    font-family: 'Open Sans', serif;
+   color: #333;
 }
 
 
@@ -88,8 +89,8 @@ main {
 
 /* business plan cards */
 
-.tr-col {
-   margin-top: 30px;
+.col-3 {
+   margin: 30px -10px 0px -10px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -97,7 +98,7 @@ main {
 
 .card {
    display: flex;
-   width: calc((100% - 10px * 2 * 3) / 3);
+   width: calc((100% / 3) - 20px);
    margin: 10px;
    background-color: bisque;
    height: 200px;
@@ -111,7 +112,7 @@ main {
 
 /* partners */
 
-.tw-col {
+.col-2 {
    padding: 80px 0px;
    display: flex;
    height: 400px;
@@ -119,10 +120,37 @@ main {
 
 .main-col {
    width: 55%;
-   background-color: darkgoldenrod;
+   background-color: bisque;
 }
 
 .min-col {
    width: 45%;
-   background-color: darkcyan;
+   background-color: rgb(255, 217, 171);
+}
+
+
+/* dev teams */
+
+.team-container {
+   display: flex;
+}
+
+.team-container div {
+   width: calc(100% / 3);
+}
+
+.content-box {
+   background-color: bisque;
+}
+
+.team-logos {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.team-logos img {
+   width: calc(100vw / 6);
+   height: calc(100vw / 6);
+   padding: 60px;
+   border: 1px solid #000;
 }
