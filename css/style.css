@@ -15,6 +15,12 @@ body {
    padding: 80px 0px 20px 0px;
 }
 
+svg {
+   height: 30px;
+   width: auto;
+   fill: #fff;
+}
+
 hr {
    display: block;
    height: 1px;
@@ -95,6 +101,7 @@ nav li a {
 
 .empty-btn {
    border: 1px solid #d2d2d2;
+   background-color: #fff;
    color: rgba(0,0,0,.5);
    font-size: 12px;
    padding: 8px 12px;
@@ -372,22 +379,89 @@ main {
 .team-logos .image-box {
    width: calc(100vw / 6);
    height: calc(100vw / 6);
-   padding: 60px;
-}
-
-.image-box {
-   color: #fff;
+   position: relative;
 }
 
 .image-box img {
-   width: 100%;
+   display: block;
+   margin: auto;
+   filter: invert(1);
+   height: 2vw;
+   position: relative;
+   top: calc(50% - 1vw);
 }
 
 .green-bg {
    background-color: #A2D39B;
 }
 
+.bordeaux-bg {
+   background-color: #61082B;
+}
 
+.bordeaux-bg img {
+   height: 6vw;
+   top: calc(50% - 3vw);
+}
+
+.l-blue-bg {
+   background-color: #0093CE;
+}
+
+.orange-bg {
+   background-color: #FF1B1B;
+}
+
+.orange-bg img {
+   height: 4vw;
+   top: calc(50% - 2vw);
+}
+
+.red-bg {
+   background-color: #D4001F;
+}
+
+.azure-bg {
+   background-color: #B4D0E7;
+}
+
+.azure-bg img {
+   height: 1vw;
+   top: calc(50% - .5vw);
+}
+
+.blue-bg {
+   background-color: #0D2481;
+}
+
+.blue-bg img {
+   height: 4vw;
+   top: calc(50% - 2vw);
+}
+
+.yellow-bg {
+   background-color: #FFD831;
+}
+
+.yellow-bg img {
+   height: 6vw;
+   top: calc(50% - 3vw);
+}
+
+.content-box {
+   background-color: #F5F5F5;
+   padding: 40px;
+}
+
+.content-box img {
+   display: block;
+   height: 80px;
+   width: auto;
+}
+
+.caption {
+   margin: 40px 0px;
+}
 
 
 
@@ -397,9 +471,26 @@ main {
 /* free trial */
 
 .free-trial-bg {
-   background-color: aqua;
+   background-color: #B4D0E7;
    padding: 20px 0px;
 }
+
+.free-trial {
+   padding: 80px 0px;
+}
+
+.free-trial .main-col{
+   padding: 0px 30px;
+}
+
+.free-trial h2 {
+   color: #61072B;
+}
+
+.free-trial .min-col {
+   padding-top: 0px;
+}
+
 
 
 /* F.A.Q. */
