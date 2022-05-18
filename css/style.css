@@ -25,7 +25,7 @@ hr {
    display: block;
    height: 1px;
    background-color: #d2d2d2;
-   width: 20%;
+   width: 15%;
    border: none;
    margin: 24px 0px;
 }
@@ -480,7 +480,7 @@ main {
 }
 
 .free-trial .main-col{
-   padding: 0px 30px;
+   padding: 0px 30px 0px 0px;
 }
 
 .free-trial h2 {
@@ -499,18 +499,33 @@ main {
    padding: 100px 0px;
 }
 
+.faq-container p {
+   margin-bottom: 0px;
+}
+
 .questions-container {
    padding: 50px 0px;
 }
 
 .question-box {
+   display: flex;
+   align-items: center;
    padding: 30px 0px;
-   border-top: 1px solid #000;
+   border-top: 1px solid rgba(0,0,0,.5);
    font-size: 14px;
 }
 
+.question-box .main-col {
+   width: 95%;
+}
+
+.question-box .min-col {
+   padding: 0px;
+   width: 5%;
+}
+
 .last-qb {
-   border-bottom: 1px solid #000;
+   border-bottom: 1px solid rgba(0,0,0,.5);
 }
 
 
@@ -521,7 +536,7 @@ main {
 /* footer */
 
 footer {
-   padding: 50px 0px 0px 0px;
+   padding: 50px 0px 20px 0px;
    background-color: #000;
    color: #fff;
 }
@@ -543,13 +558,20 @@ footer .container-big {
 .col ul {
    list-style: none;
    margin-top: 14px;
-   font-size: 14px;
+   font-size: 12px;
 }
 
 .col ul li {
-   padding: 4px 0px
+   padding: 6px 0px
+}
+
+footer hr {
+   margin: 50px 0px 30px 0px;
+   width: 10%;
 }
 
 .language-box {
    padding: 20px 0px;
+   color: rgba(255,255,255,.3);
+   font-size: 12px;
 }
