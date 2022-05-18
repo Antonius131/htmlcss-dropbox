@@ -364,6 +364,7 @@ main {
 
 .team-container div {
    width: calc(100% / 3);
+   height: calc(100vw / 3);
 }
 
 .content-box {
@@ -377,9 +378,8 @@ main {
 }
 
 .team-logos .image-box {
-   width: calc(100vw / 6);
-   height: calc(100vw / 6);
-   position: relative;
+   width: 50%;
+   height: 50%;
 }
 
 .image-box img {
@@ -490,6 +490,7 @@ main {
 .free-trial .min-col {
    padding-top: 0px;
 }
+
 
 
 
